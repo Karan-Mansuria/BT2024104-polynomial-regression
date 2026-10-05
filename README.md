@@ -6,8 +6,7 @@ five-fold cross-validation for degree and regularization selection.
 
 Repository: [Karan-Mansuria/BT2024104-polynomial-regression](https://github.com/Karan-Mansuria/BT2024104-polynomial-regression)
 
-[Read the four-page report](output/pdf/BT2024104_report.pdf) or see the
-[assignment requirements check](ASSIGNMENT_CHECKLIST.md).
+[Read the four-page report](output/pdf/BT2024104_report.pdf).
 
 ## Completed results
 
