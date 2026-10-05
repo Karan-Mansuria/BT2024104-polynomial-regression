@@ -57,15 +57,6 @@ python assignment.py predict --problem both
 python verify_results.py
 ```
 
-Build the four-page report from completed results:
-
-```sh
-python make_report.py
-```
-
-This writes `output/pdf/BT2024104_report.pdf`. The report is generated from actual
-saved metrics, explains the simplified scope, and does not claim hidden-test scores.
-
 ## Methodology
 
 1. Load each training dataset independently; validate column names and finite
@@ -114,8 +105,6 @@ search MSE and independently refitted OOF MSE are recorded in selection.json.
 
 - `assignment.py`: training, final refitting, inference, and CSV verification.
 - `search.py`: all Ridge, LASSO, Elastic Net, preprocessing, and search logic.
-- `reporting.py`: comparison tables and report plots.
-- `make_report.py`: reproducible four-page PDF report from completed results.
 - `verify_results.py`: independent search-coverage, model-selection and CSV audit.
 - `test_assignment.py`: exact Ridge equivalence, scaling isolation, and convergence tests.
 - `requirements.txt`: runtime dependencies.
