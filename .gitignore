@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+results/
+archive/
+tmp/
+*.log
+*.zip
+.DS_Store
+# Keep personalized source data local unless course policy permits publishing it.
+BT2024104_train_*.csv
+BT2024104_test_*.csv
